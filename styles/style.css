@@ -42,6 +42,7 @@ button {
   }
 
 
+
 /* Alert */
 .alert {
 	position: relative;
@@ -98,8 +99,23 @@ button {
 
 /* Article */
 .article {
-	margin-bottom: 2em;
+	margin-bottom: 4em;
 }
+
+.article-main {
+	margin: 10px;
+	padding: 30px;
+	width: 45%;
+	float: left;
+	min-height: 250px;
+	border: #b8b8b8 solid 0.5px;
+}
+
+.article-main:first-of-type {
+	background-color: #b9b9b9;
+}
+
+
 
 .article__title {
 	margin-bottom: 0.5em;
@@ -127,11 +143,11 @@ button {
 }
 
 .img-fluid {
+	width: 25%;
+	min-height: 50px;
 	float: left;
-	display: block;
-	
-	margin: 7px, 7px, 7px, 0;
-
+	margin-right: 20px;
+	margin-bottom: 2em;
 }
 
 /* Footer */
