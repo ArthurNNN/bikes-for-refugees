@@ -36,6 +36,10 @@ button {
 
 /* Buttons */
 /* INSERT BUTTON STYLES HERE */
+.btn {
+	background: #ce5f31;
+	color: white;
+  }
 
 
 /* Alert */
@@ -66,6 +70,8 @@ button {
 /* Jumbotron */
 .jumbotron {
 	border-radius: 0;
+	background-image: url("../images/header-bike.jpg");
+	color: #fff;
 }
 
 /* Headings */
@@ -118,6 +124,14 @@ button {
 
 .article__read-more:last-child {
 	margin-bottom: 0;
+}
+
+.img-fluid {
+	float: left;
+	display: block;
+	
+	margin: 7px, 7px, 7px, 0;
+
 }
 
 /* Footer */
