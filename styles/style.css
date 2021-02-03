@@ -8,22 +8,22 @@
 
 html,
 body {
-	font-family: "Source Sans Pro","Helvetica Neue",Arial,sans-serif;
+	font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
 }
 
 button {
-	font-family: "Source Sans Pro","Helvetica Neue",Arial,sans-serif;
+	font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
 }
 
 /*  Navigation */
-.navbar-brand > img {
+.navbar-brand>img {
 	max-height: 40px;
 	width: auto;
 }
 
 .navbar-light .navbar-toggler {
 	border: 0;
-	right:  0;
+	right: 0;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -39,7 +39,7 @@ button {
 .btn {
 	background: #ce5f31;
 	color: white;
-  }
+}
 
 
 
@@ -124,9 +124,10 @@ button {
 	float: left;
 }
 
-.col-lg-4 p, .col-lg-4 h6 {
+.col-lg-4 p,
+.col-lg-4 h6 {
 	margin-left: 120px;
-	
+
 }
 
 
@@ -172,7 +173,18 @@ button {
 
 @media screen and (min-width: 992px) {
 
-	.navbar-brand > img {
-	   max-height: 80px;
+	.navbar-brand>img {
+		max-height: 80px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+
+	.jumbotron h1 {
+		font-size: 200%;
+	}
+
+	.jumbotron p {
+		font-size: 75%;
 	}
 }
